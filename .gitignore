@@ -1,0 +1,27 @@
+## Note: This file is read by tar(1) as well as by git -- see Makefile-handout
+## for details.  tar does not understand /foo the same way git does; using it
+## will cause "make submit" to malfunction.
+
+# Temporary files
+*~
+._*
+core
+
+# Generated files
+*.o
+*.d
+*.gch
+*.tar
+proxy
+.format-checked
+
+# Python files
+__pycache__/
+*.py[cod]
+
+# Pxydrive files
+logs
+source_files
+response_files
+results.log
+get_files
